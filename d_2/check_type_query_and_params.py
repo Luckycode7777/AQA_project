@@ -10,4 +10,3 @@ print('***' * 5)
 response = requests.post("https://playground.learnqa.ru/api/check_type", data={"param_1": "value_1"})
 print(response)
 print(response.text)
-

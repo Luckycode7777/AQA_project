@@ -1,7 +1,7 @@
 import requests
 
 """Получаем куки"""
-payload = {"login": "secret_login", "password": "secret_passZ"}  # готовим данные
+payload = {"login": "secret_login", "password": "secret_pass"}  # готовим данные
 response1 = requests.post("https://playground.learnqa.ru/api/get_auth_cookie", data=payload)
 print(response1.headers)
 print(dict(response1.cookies))

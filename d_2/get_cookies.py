@@ -1,5 +1,6 @@
 import requests
 
+
 """Получение куки"""
 payload = {"login": "secret_login", "password": "secret_pass"}  # готовим данные
 date = {

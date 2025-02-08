@@ -29,10 +29,3 @@ class TestUserAuth:
         user_id_from_check_method = response_2.json()["user_id"]
 
         assert user_id_from_auth_method == user_id_from_check_method, "Не равны"
-
-
-
-
-
-
-

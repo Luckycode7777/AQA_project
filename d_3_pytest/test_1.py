@@ -3,7 +3,7 @@ import requests
 
 class TestFirstAPI:
     def test_hello(self):
-        url = "https://playground.learnqa.ru/api/hellos"
+        url = "https://playground.learnqa.ru/api/hellos "
         name = "Max"
         data = {"name": name}
 
